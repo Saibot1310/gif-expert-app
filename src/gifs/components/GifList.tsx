@@ -1,4 +1,4 @@
-import type { Gif } from './interfaces/gifs.interface';
+import type { Gif } from '../interfaces/gifs.interface';
 
 interface Props {
   gifs: Gif[];
