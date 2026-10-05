@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 .env
+
+coverage
+
+__snapshots__
