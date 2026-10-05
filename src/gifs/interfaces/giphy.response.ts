@@ -57,7 +57,6 @@ export interface Images {
   fixed_width_small: FixedHeight;
   fixed_width_small_still: The480_WStill;
   fixed_width_still: The480_WStill;
-  looping: Looping;
   original_still: The480_WStill;
   original_mp4: DownsizedSmall;
   preview: DownsizedSmall;
@@ -94,14 +93,9 @@ export interface FixedHeight {
   hash?: string;
 }
 
-export enum Rating {
-  G = "g",
-  PG = "pg",
-}
+export type Rating = 'G' | 'PG'
 
-export enum Type {
-  GIF = "gif",
-}
+export type Type = 'Gif'
 
 export interface User {
   avatar_url: string;
